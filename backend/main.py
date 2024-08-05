@@ -15,7 +15,7 @@ handler = Mangum(app)
 
 @app.get("/")
 async def hello():
-    return {"msg": "Hello World"}
+    return {"msg": "Hello"}
 
 # @app.post("/items")
 # def create_item(item:str):

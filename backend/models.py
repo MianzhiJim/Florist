@@ -6,4 +6,4 @@ class Products(Base):
     id = Column(Integer,primary_key=True, index=True)
     name = Column(String)
     price = Column(Integer)
-    description = Column(String)
+    img_url = Column(String)

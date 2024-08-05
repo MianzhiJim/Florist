@@ -1,3 +1,7 @@
 # virtual enviroment
 .venv/
+venv/
+
 dependencies/
+*.zip
+*.pyc
