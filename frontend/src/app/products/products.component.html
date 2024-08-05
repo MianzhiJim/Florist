@@ -1,0 +1,5 @@
+<div class="container">
+  @for (product of products; track product) {
+    <img [src]="getImgList(product.img_url)" style="width: 600px; aspect-ratio: 1; margin-inline: 20px;"/>
+  }
+</div>
