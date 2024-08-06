@@ -1,0 +1,26 @@
+.landing-container {
+    display: flex;
+    height: 100vh;
+}
+
+.landing {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cta-button {
+    position: absolute;
+    bottom: 20%;
+    left: 46%;
+    background: fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
