@@ -1,5 +1,9 @@
 <div class="container">
   @for (product of products; track product) {
-    <img [src]="getImgList(product.img_url)" style="width: 600px; aspect-ratio: 1; margin-inline: 20px;"/>
+  <div class="product-card">
+    <img [src]="getImgList(product.img_url)" class="product-image" />
+    <h2 class="product-name">{{ product.name }}</h2>
+    <p class="product-price">$ {{ product.price }}</p>
+  </div>
   }
 </div>
