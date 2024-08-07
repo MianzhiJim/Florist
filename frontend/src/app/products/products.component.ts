@@ -11,7 +11,7 @@ import { ProductsService } from '../services/products.service';
 export class ProductsComponent {
   products: any[] = [];
 
-  constructor(private service: ProductsService) {}
+  constructor(private service: ProductsService) { }
 
   ngOnInit() {
     this.service.getAll().subscribe(data => {
